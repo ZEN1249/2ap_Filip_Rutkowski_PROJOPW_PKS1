@@ -1,6 +1,6 @@
 # Projektowanie aplikacji
 
-**Opis Strony**
+##Opis Strony
 Strona internetowa poświęcona jest projektowaniu aplikacji oraz najlepszym praktykom programistycznym, takim jak zasady KISS, DRY, SOLID, i YAGNI. Platforma oferuje przystępny przegląd kluczowych koncepcji programowania obiektowego, zasad Clean Code, dokumentowania kodu, a także projektowania algorytmów. Użytkownicy znajdą tu zarówno teoretyczne wyjaśnienia, jak i praktyczne przykłady. Strona dedykowana jest zarówno początkującym programistom, którzy chcą zrozumieć podstawy, jak i zaawansowanym twórcom aplikacji pragnącym doskonalić swoje umiejętności i pracować efektywniej.
 
 # Strona zawiera następujące informacje:
