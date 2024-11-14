@@ -30,6 +30,8 @@ mark:hover .hover-image {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .hover-image img {
+    min-height: 200px;
+    min-width: 400px;
     max-width: 600px;
     max-height: 400px;
 }

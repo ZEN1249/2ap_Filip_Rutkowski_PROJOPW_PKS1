@@ -1,0 +1,21 @@
+#DokumentowanieKodu{
+    width: 100%;
+}
+#DokumentowanieKodu div{
+    max-width: 80%;
+    margin: 20px;
+}
+#DokumentowanieKodu h2 b{
+    background-color: #7c7978;
+    border-radius: 4px;
+}
+#DokumentowanieKodu li b{
+    background-color: #8eacb9;
+    border-radius: 4px;
+}
+#DokumentowanieKodu ul{
+    margin: 20px;
+}
+#DokumentowanieKodu ul li{
+    margin: 10px;
+}
