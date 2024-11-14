@@ -1,5 +1,4 @@
 main{
-    height: 100vh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -24,4 +23,13 @@ mark:hover{
 }
 mark:hover .hover-image {
     display: block;
+}
+.hover-image {
+    display: none;
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.hover-image img {
+    max-width: 600px;
+    max-height: 400px;
 }

@@ -1,5 +1,5 @@
 #Praktyki{
-    max-height: 550px;
+    max-height: 425px;
     width: 100%;
 }
 #PraktykiList{
@@ -8,4 +8,7 @@
 #PraktykiList ul {
     list-style-type: disc;
     margin-left: 20px;
+}
+#Praktyki ul li{
+    margin: 10px;
 }

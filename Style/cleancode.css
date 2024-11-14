@@ -1,20 +1,29 @@
-#CleanCode{
-    width: 100%;
-    max-height: 225px;
+#CleanCode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    overflow: hidden;
+    min-height: 200px;
 }
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .flip-card {
     background-color: transparent;
     width: 250px;
     height: 150px;
+    max-height: 150px;
     perspective: 1000px;
     user-select: none;
+    flex-shrink: 0;
 }
 
 .flip-card-inner {

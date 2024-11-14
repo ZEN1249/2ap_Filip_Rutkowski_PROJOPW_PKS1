@@ -28,7 +28,25 @@
             <div id="PraktykiList">
                 <h1>Dobre Praktyki</h1>
                 <ul>
-                    <li></li>
+                    <li><mark class="hover-target" data-image="Images/Praktyki/Enkapsulacja.png"><b>Enkapsulacja</b></mark> = Ukrywanie szczegółów implementacji wewnątrz klasy, aby chronić dane przed nieautoryzowanym dostępem. Dzięki temu, dane są bezpieczniejsze, a kod bardziej niezawodny.</li>
+                    
+                    <li><mark class="hover-target" data-image="Images/Praktyki/Dziedziczenie.png"><b>Dziedziczenie</b></mark> = Umożliwia tworzenie nowych klas na podstawie już istniejących, co pozwala na ponowne wykorzystanie kodu i rozszerzanie funkcjonalności bez jego powtarzania.</li>
+                    
+                    <li><mark class="hover-target" data-image="Images/Praktyki/Polimorfizm.png"><b>Polimorfizm</b></mark> = Pozwala na definiowanie metod o tej samej nazwie, ale o różnych implementacjach w różnych klasach, zwiększając elastyczność kodu.</li>
+                    
+                    <li><mark class="hover-target" data-image="Images/Praktyki/ZasadaJednejOdpowiedzialnosci.png"><b>Zasada Jednej Odpowiedzialności</b></mark> = Klasa powinna odpowiadać tylko za jeden aspekt działania aplikacji, co ułatwia jej zrozumienie i modyfikację.</li>
+                    
+                    <li><mark class="hover-target" data-image="Images/Praktyki/Odwrocenie_zalezności.png"><b>Odwrócenie zależności</b></mark> = Klasy wyższego poziomu powinny zależeć od abstrakcji, a nie od szczegółów implementacyjnych, co poprawia elastyczność i testowalność.</li>
+                    
+                    <li><mark class="hover-target" data-image="Images/Praktyki/Interfejsy_i_abstrakcje.png"><b>Interfejsy i abstrakcje</b></mark> = Pozwalają na definiowanie wspólnych zasad działania, które muszą być zaimplementowane przez różne klasy, co ułatwia rozszerzanie kodu.</li>
+                    
+                    <li><mark class="hover-target" data-image="Images/Praktyki/Unikanie_duplikacji_kodu.png"><b>Unikanie duplikacji kodu</b></mark> = Ważne jest unikanie powtarzania tej samej logiki, ponieważ zmniejsza to złożoność kodu i upraszcza jego utrzymanie.</li>
+                    
+                    <li><mark class="hover-target" data-image="Images/Praktyki/Testowanie_jednostkowe.png"><b>Testowanie jednostkowe</b></mark> = Pomaga upewnić się, że każda część kodu działa poprawnie i zgodnie z oczekiwaniami, zapewniając stabilność aplikacji.</li>
+                    
+                    <li><mark class="hover-target" data-image="Images/Praktyki/Projektowanie_rozszerzalnosci.png"><b>Projektowanie z myślą o rozszerzalności</b></mark> = Tworzenie kodu w taki sposób, aby łatwo było dodawać nowe funkcjonalności bez wprowadzania zmian w istniejącej logice.</li>
+                    
+                    <li><mark class="hover-target" data-image="Images/Praktyki/Loose_Coupling.png"><b>Unikanie zbytniego powiązania klas (Loose Coupling)</b></mark> = Klasy powinny być jak najmniej zależne od siebie, co pozwala na łatwiejsze modyfikacje i testowanie.</li>
                 </ul>
             </div>
         </div>
@@ -116,7 +134,11 @@
     <footer>
         <p>© 2024 Filip Rutkowski. Niniejsze dzieło jest udostępniane na licencji (CC BY-NC-ND).</p>
     </footer>
+    <div class="hover-image" id="hoverImage">
+        <img src="" alt="Hover Image" id="hoverImageContent">
+    </div>
     <!--Scripts-->
     <script src="Scripts/scroll.js"></script>
+    <script src="Scripts/hoverImageFIX.js"></script>
 </body>
 </html>
