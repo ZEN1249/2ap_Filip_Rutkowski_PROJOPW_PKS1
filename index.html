@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projektowanie aplikacji</title>
+    <link rel="shortcut icon" href="Images/Icon/icon.webp" type="image/x-icon"">
+    <!--Style-->
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/nav.css">
+    <link rel="stylesheet" href="Style/main.css">
+    <link rel="stylesheet" href="Style/footer.css">
+    <link rel="stylesheet" href="Style/praktyki.css">
+    <link rel="stylesheet" href="Style/cleancode.css">
+</head>
+<body>
+    <nav>
+        <ul>
+        <button onclick="scrollToSection('Praktyki')">Dobre Praktyki</button>
+        <button onclick="scrollToSection('CleanCode')">Clean Code</button>
+        <button onclick="scrollToSection('DokumentowanieKodu')">Dokumentowanie kodu</button>
+        <button onclick="scrollToSection('Algorytmy')">Algorytmy</button>
+        <button onclick="scrollToSection('ProjektowanieKlas')">Projektowanie klas (UML)</button>
+        </ul>
+    </nav>
+    <main>
+        <div id="Praktyki">
+            <div id="PraktykiList">
+                <h1>Dobre Praktyki</h1>
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <div id="CleanCode">
+            <h1>Clean Code</h1>
+            <div class="card-container">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p>KISS</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>"Keep It Simple, Stupid" = rozwiązania powinny być proste, unikaj nadmiernej komplikacji.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p>DRY</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>"Don't Repeat Yourself" = nie duplikuj kodu; każda informacja w systemie powinna mieć jedno źródło.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p>YAGNI</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>"You Aren't Gonna Need It" = implementuj tylko te funkcje, które są naprawdę potrzebne, unikaj nadmiernego rozwijania kodu.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p>SOLID</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <ul style="font-size: 14px;">
+                                <li>S = Single Responsibility Principle</li>
+                                <li>O = Open/Closed Principle</li>
+                                <li>L = Liskov Substitution Principle</li>
+                                <li>I = Interface Segregation Principle</li>
+                                <li>D = Dependency Inversion Principle</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p>TDD</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>"Test-Driven Development" = rozwój oparty na testach; najpierw pisz testy, a potem kod, aby zapewnić jakość i poprawność.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p>SRP</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p style="font-size: 15px;">"Single Responsibility Principle" = zasada jednej odpowiedzialności, czyli każda klasa lub funkcja powinna mieć jedną, jasno określoną odpowiedzialność.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="DokumentowanieKodu"></div>
+        <div id="Algorytmy"></div>
+        <div id="ProjektowanieKlas"></div>
+    </main>
+    <footer>
+        <p>© 2024 Filip Rutkowski. Niniejsze dzieło jest udostępniane na licencji (CC BY-NC-ND).</p>
+    </footer>
+    <!--Scripts-->
+    <script src="Scripts/scroll.js"></script>
+</body>
+</html>

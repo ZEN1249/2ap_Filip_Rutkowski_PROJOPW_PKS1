@@ -1,0 +1,10 @@
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #b9b3b3;
+    align-items: flex-end;
+}
+footer p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
