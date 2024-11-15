@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="Style/cleancode.css">
     <link rel="stylesheet" href="Style/dokumentowaniekodu.css">
     <link rel="stylesheet" href="Style/algorytmy.css">
+    <link rel="stylesheet" href="Style/projektowanieklas.css">
 </head>
 <body>
     <nav>
@@ -245,7 +246,52 @@
                 </ul>
             </div>
         </div>
-        <div id="ProjektowanieKlas"></div>
+        <div id="ProjektowanieKlas">
+            <h1>Projektowanie klas (UML)</h1>
+            <div>
+                <h2><b>Co to jest projektowanie klas (UML)?</b></h2>
+                <h3 style="font-size: 17px;"><b>Projektowanie klas w UML (ang. Unified Modeling Language)</b> to proces wizualnego modelowania struktury systemu za pomocą diagramów klas. Diagram klas jest jedną z kluczowych części UML i służy do przedstawienia:</h3>
+                <ul>
+                    <li>Struktury klas w systemie</li>
+                    <li>Ich atrybutów (danych przechowywanych przez klasy)</li>
+                    <li>Metod (funkcjonalności klas)</li>
+                    <li>Zależności pomiędzy klasami (relacji)</li>
+                </ul>
+                <h2><mark class="hover-target" data-image="Images/Projektowanie_klas_UML/diagram.png"><b>Elementy diagramu klas UML</b></mark></h2>
+                <ul>
+                    <li>
+                        <b>Klasa</b>
+                        <ul>
+                            <li>Reprezentuje obiekt w systemie.</li>
+                            <li>Składa się z trzech sekcji:
+                                <ul>
+                                    <li>Nazwa klasy,</li>
+                                    <li>Atrybuty (dane przechowywane w klasie),</li>
+                                    <li>Operacje/metody (funkcje wykonywane przez klasę).</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Relacje między klasami</b>
+                        <ul>
+                            <li><b>Dziedziczenie (Inheritance):</b> Kiedy jedna klasa dziedziczy atrybuty i metody innej klasy.</li>
+                            <li><b>Asocjacja:</b> Związek logiczny między dwiema klasami (np. "Samochód ma kierowcę").</li>
+                            <li><b>Kompozycja:</b> Silniejsza forma asocjacji; obiekt jednej klasy jest częścią składową innego obiektu (np. "Silnik jest częścią samochodu").</li>
+                            <li><b>Agregacja:</b> Luźniejsza forma relacji typu „całość-część” (np. "Flota składa się z samochodów").</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Widoczność atrybutów i metod</b>
+                        <ul>
+                            <li><b>+</b> Publiczne: dostępne wszędzie.</li>
+                            <li><b>-</b> Prywatne: dostępne tylko w obrębie klasy.</li>
+                            <li><b>#</b> Chronione: dostępne w klasie i jej podklasach.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </main>
     <footer>
         <p>© 2024 Filip Rutkowski. Niniejsze dzieło jest udostępniane na licencji (CC BY-NC-ND).</p>

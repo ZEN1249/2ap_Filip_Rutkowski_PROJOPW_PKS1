@@ -1,0 +1,22 @@
+#ProjektowanieKlas{
+    width: 100%;
+}
+#ProjektowanieKlas div{
+    max-width: 90%;
+    margin: 20px;
+}
+#ProjektowanieKlas h2 b{
+    background-color: #7c7978;
+    border-radius: 4px;
+}
+
+#ProjektowanieKlas li b{
+    border-radius: 4px;
+}
+#ProjektowanieKlas ul{
+    margin: 20px;
+}
+
+#ProjektowanieKlas ul li{
+    margin: 10px;
+}
