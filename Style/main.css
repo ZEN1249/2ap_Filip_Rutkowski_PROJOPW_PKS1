@@ -7,7 +7,6 @@ main > div{
     position: relative;
     max-width: 100%;
     overflow: hidden;
-    border: solid 1px black;
 }
 h1{
     text-align: center;
