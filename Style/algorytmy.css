@@ -1,3 +1,21 @@
 #Algorytmy{
     width: 100%;
 }
+#Algorytmy div{
+    max-width: 90%;
+    margin: 20px;
+}
+#Algorytmy h2 b{
+    background-color: #7c7978;
+    border-radius: 4px;
+}
+
+#Algorytmy li b{
+    border-radius: 4px;
+}
+#Algorytmy ul{
+    margin: 20px;
+}
+#Algorytmy ul li{
+    margin: 10px;
+}
