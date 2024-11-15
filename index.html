@@ -176,9 +176,73 @@
                         <li><mark class="hover-target" data-image="Images/Algorytmy/Rekurencja.png"><b>Rekurencja</b></mark> = Proces, w którym funkcja wywołuje samą siebie, aż osiągnie warunek bazowy.</li>
                     </ul>
                 <h2><b>Algorytmy sortujące</b></h2>
+                <h3 style="font-size: 17px;">Algorytmy sortujące to metody organizowania elementów w tablicy według określonego porządku (np. rosnąco lub malejąco). Poniżej znajdziesz proste przykłady popularnych algorytmów sortujących w JavaScript.</h3>
+                    <ul>
+                        <li><mark class="hover-target" data-image="Images/Algorytmy/Sortowanie/Bubble.png"><b>Bubble Sort</b></mark> = Algorytm iteracyjnie porównuje sąsiednie elementy i zamienia je miejscami, jeśli są w złej kolejności. Proces powtarza się, aż tablica zostanie posortowana.</li>
+                        <li><mark class="hover-target" data-image="Images/Algorytmy/Sortowanie/Selection.png"><b>Selection Sort</b></mark> = Algorytm wybiera najmniejszy (lub największy) element z nieposortowanej części tablicy i zamienia go z pierwszym elementem tej części.</li>
+                        <li><mark class="hover-target" data-image="Images/Algorytmy/Sortowanie/Insertion.png"><b>Insertion Sort</b></mark> = Algorytm buduje posortowaną tablicę, wstawiając każdy element w odpowiednie miejsce w już posortowanej części.</li>
+                        <li><mark class="hover-target" data-image="Images/Algorytmy/Sortowanie/Merge.png"><b>Merge Sort</b></mark> = Algorytm dzieli tablicę na pół, sortuje każdą część rekurencyjnie, a następnie łączy (scala) je w jedną posortowaną całość.</li>
+                        <li><mark class="hover-target" data-image="Images/Algorytmy/Sortowanie/Quick.png"><b>QuickSort</b></mark> = Algorytm wybiera element (pivot), dzieli tablicę na dwie części (mniejsze i większe od pivota), a następnie rekurencyjnie sortuje każdą część.</li>
+                    </ul>
                 <h2><b>Wyszukiwanie binarne</b></h2>
+                <h3 style="font-size: 17px;">Wyszukiwanie binarne to efektywny algorytm służący do wyszukiwania konkretnego elementu w posortowanej tablicy. Działa na zasadzie podziału i redukcji, eliminując połowę możliwych elementów przy każdym kroku.</h3>
+                <ol>
+                    <li>Znajdź element środkowy w tablicy.</li>
+                    <li>Porównaj poszukiwany element z elementem środkowym:
+                        <ul>
+                            <li>Jeśli są równe, znaleziono element.</li>
+                            <li>Jeśli poszukiwany element jest mniejszy od środkowego, przeszukaj lewą połowę tablicy.</li>
+                            <li>Jeśli poszukiwany element jest większy od środkowego, przeszukaj prawą połowę tablicy.</li>
+                        </ul>
+                    </li>
+                    <li>Powtarzaj kroki aż do znalezienia elementu lub do wyczerpania tablicy.</li>
+                </ol>
                 <h2><b>Algorytm szyfrujący ROT-13</b></h2>
+                <h3 style="font-size: 17px;">ROT-13 (skrót od "rotate by 13 places") to prosty algorytm szyfrujący, który przesuwa każdą literę w alfabecie o 13 pozycji. Jest to odmiana szyfru cezara, ale z przesunięciem wynoszącym dokładnie połowę alfabetu (13 liter).</h3>
+                <br><mark class="hover-target" data-image="Images/Algorytmy/ROT13.png"><b>Jak działa</b></mark>
+                <ol>
+                    <li>
+                        <b>Dla każdej litery tekstu:</b>
+                        <ul>
+                            <li>Zamienia ją na kod ASCII (funkcja <code>charCodeAt</code>).</li>
+                            <li>Sprawdza, czy jest to litera (mała lub wielka).</li>
+                            <li>Przesuwa kod ASCII o 13 pozycji, uwzględniając zakres alfabetu (<code>% 26</code> zapewnia, że nie wyjdzie poza alfabet).</li>
+                        </ul>
+                    </li>
+                    <li><b>Pozostałe znaki:</b> (np. spacje, cyfry, symbole) pozostają niezmienione.</li>
+                    <li><b>Łączy przetworzone litery:</b> z powrotem w ciąg tekstu.</li>
+                </ol>
                 <h2><b>Algorytmy heurystyczne</b></h2>
+                <h3 style="font-size: 17px;">Algorytmy heurystyczne to metody rozwiązywania problemów, które wykorzystują przybliżone rozwiązania, aby znaleźć „wystarczająco dobre” odpowiedzi w krótkim czasie, szczególnie w przypadkach, gdy dokładne rozwiązanie jest trudne lub czasochłonne do obliczenia.</h3>
+                <br><mark class="hover-target" data-image="Images/Algorytmy/heurystyczny.png"><b>Przykłady algorytmów heurystycznych</b></mark>
+                <ul>
+                    <li>
+                        <strong>Algorytm zachłanny</strong>
+                        <ul>
+                            <li>Rozwiązanie budowane jest krok po kroku, zawsze wybierając lokalnie najlepszą opcję (np. najtańszą lub najszybszą).</li>
+                            <li>Przykład: Szukanie najkrótszej drogi w grafie z wyborem najbliższego wierzchołka.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Algorytmy metaheurystyczne</strong>
+                        <ul>
+                            <li>Są bardziej ogólne i mogą być stosowane do różnych problemów.</li>
+                            <li>Przykłady:
+                                <ul>
+                                    <li><strong>Algorytm genetyczny:</strong> Symuluje proces ewolucji, aby znaleźć dobre rozwiązania.</li>
+                                    <li><strong>Symulowane wyżarzanie (Simulated Annealing):</strong> Symuluje proces chłodzenia metalu, aby znaleźć optymalne rozwiązanie w skomplikowanej przestrzeni rozwiązań.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Heurystyki w problemie komiwojażera</strong>
+                        <ul>
+                            <li>Komiwojażer musi odwiedzić określone miasta i wrócić do punktu wyjścia, minimalizując przebytą drogę.</li>
+                            <li>Heurystyka: Zawsze wybiera najbliższe nieodwiedzone miasto.</li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
         <div id="ProjektowanieKlas"></div>
